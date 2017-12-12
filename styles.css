@@ -1,0 +1,85 @@
+body {
+	background-color: #c2d6d6;
+}
+
+#header {
+    width:100%;
+	position:fixed;
+	top:0px;
+	background-color: #00334d;
+}
+#welcomeplace {
+	width: 100%;
+	text-align: center;
+	color: #e0e0d1;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+form {
+	width: 400px;
+	display: inline-block;
+	background-color: #e0e0d1;
+    border-radius: 4px;
+}
+#wrapper {
+	text-align: center;
+}
+p {
+	text-align: left;
+}
+p, h3, legend, table {
+	font-family: Helvetica;
+}
+#resultloginform, #resultregform, #errorplace {
+	font-style: italic;
+	color: red;
+}
+input[type=submit] {
+	background-color: #00334d;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+table {
+	background-color: #e0e0d1;
+	border-collapse: collapse;
+    border-radius: 4px;
+}
+table, td {
+    border: 1px solid black;
+}
+#submitrow {
+	text-align: center;
+}
+
+.logoutLblPos{
+	position:fixed;
+	right:10px;
+	top:5px;
+	text-align: right;
+	display: inline-block;
+	background-color: #00334d;
+}
+
+#logout_butt {
+	border: 1px solid white;
+}
+
+.deptclass {
+	float:left; display:inline; 
+}
+
+button.new_user, button.already_user { 
+	background:none;border:none; 
+	cursor: pointer;
+}
